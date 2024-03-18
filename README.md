@@ -1,3 +1,6 @@
+# ContactGen
+[project page](https://dongjunku.github.io/contactgen/)
+
 ## Install
 
 ### Docker
