@@ -19,7 +19,17 @@ ContactGen
 |   ├── chi3d_whoisactor_v2.pkl
 |   ├── contact_regions.json
 |   ├── r_sym_pair.pkl
+├── ci3d.py
+├── loss.py
+├── model.py
+├── optimizer.py
+├── params.py
+├── sample.py
+├── test_diffusion.py
+├── test_guidenet.py
+├── train_diffusion.py
+├── train_guidenet.py
+├── utils.py
 ```
 
-contact_regions.json
-https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json
+you can get contact_regions.json from https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json
