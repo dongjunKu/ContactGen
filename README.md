@@ -30,9 +30,10 @@ ContactGen
 ├── train_diffusion.py
 ├── train_guidenet.py
 ├── utils.py
+├── visualize.py
 ```
 
-you can get contact_regions.json from https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json
+you can get [contact_regions.json](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json) here
 
 ## Training
 training diffusion module
@@ -46,4 +47,10 @@ python train_guidenet.py
 ## Sampling
 ```shell
 python sample.py
+```
+It will generate sample in the ``output_diffusion_epoch1000_ci3d``
+
+## Visualizing
+```shell
+python visualize.py output_diffusion_epoch1000_ci3d/???_human_pred.pkl
 ```
