@@ -52,7 +52,7 @@ Diffusion module should be trained first
 ```shell
 python train_diffusion.py
 ```
-Next training guidance
+Next you can train guidenet
 ```shell
 python train_guidenet.py
 ```
