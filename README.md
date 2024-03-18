@@ -1,4 +1,4 @@
-# ContactGen
+# ContactGen (AAAI 2024)
 [project page](https://dongjunku.github.io/contactgen/)
 
 [arxiv](https://arxiv.org/abs/2401.17212)
