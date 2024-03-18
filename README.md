@@ -25,7 +25,7 @@ ContactGen
 |   |   |   |   ├── interaction_contact_signature.json
 |   |   |   ├── s03
 |   |   |   ├── s04
-|   ├── chi3d_whoisactor_v2.pkl
+|   ├── chi3d_whoisactor.pkl
 |   ├── contact_regions.json
 |   ├── r_sym_pair.pkl
 ├── ci3d.py
