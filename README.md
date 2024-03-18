@@ -41,18 +41,18 @@ ContactGen
 ├── utils.py
 ├── visualize.py
 ```
-you can get CHI3D dataset [here](https://ci3d.imar.ro/chi3d)
+You can get CHI3D dataset [here](https://ci3d.imar.ro/chi3d)
 
-you can get SMPL-X [here](https://smpl-x.is.tue.mpg.de/download.php)
+You can get SMPL-X [here](https://smpl-x.is.tue.mpg.de/download.php)
 
-you can get contact_regions.json [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
+You can get contact_regions.json [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
 
 ## Training
-training diffusion module
+Diffusion module should be trained first
 ```shell
 python train_diffusion.py
 ```
-training guidance
+Next training guidance
 ```shell
 python train_guidenet.py
 ```
