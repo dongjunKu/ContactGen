@@ -16,6 +16,15 @@ ContactGen
 ├── datasets
 |   ├── chi3d
 |   |   ├── train
+|   |   |   ├── s02
+|   |   |   |   ├── camera_parameters
+|   |   |   |   ├── gpp
+|   |   |   |   ├── joints3d_25
+|   |   |   |   ├── smplx
+|   |   |   |   ├── videos
+|   |   |   |   ├── interaction_contact_signature.json
+|   |   |   ├── s03
+|   |   |   ├── s04
 |   ├── chi3d_whoisactor_v2.pkl
 |   ├── contact_regions.json
 |   ├── r_sym_pair.pkl
