@@ -33,3 +33,17 @@ ContactGen
 ```
 
 you can get contact_regions.json from https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json
+
+## Training
+training diffusion module
+```shell
+python train_diffusion.py
+```
+training guidance
+```shell
+python train_guidenet.py
+```
+## Sampling
+```shell
+python sample.py
+```
