@@ -53,7 +53,7 @@ You can get SMPL-X [here](https://smpl-x.is.tue.mpg.de/download.php)
 You can get ``contact_regions.json`` [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
 
 ## Pretrained Model
-The pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1ZqWq_yPoEtig2UvHngqcJfgVyjFvCRfc?usp=drive_link). After downloading, place ``checkpoint_diffusion_ci3d`` and ``checkpoint_guidenet_ci3d`` in the ``ContactGen``.
+The pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1ZqWq_yPoEtig2UvHngqcJfgVyjFvCRfc?usp=drive_link). After downloading, place ``checkpoint_diffusion_ci3d`` and ``checkpoint_guidenet_ci3d`` in the ``ContactGen/``.
 
 ## Training
 Diffusion module should be trained first
