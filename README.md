@@ -50,7 +50,7 @@ You can get CHI3D dataset [here](https://ci3d.imar.ro/chi3d)
 
 You can get SMPL-X [here](https://smpl-x.is.tue.mpg.de/download.php)
 
-You can get contact_regions.json [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
+You can get ``contact_regions.json`` [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
 
 ## Pretrained Model
 The pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1ZqWq_yPoEtig2UvHngqcJfgVyjFvCRfc?usp=drive_link). After downloading, place ``checkpoint_diffusion_ci3d`` and ``checkpoint_guidenet_ci3d`` in the ``ContactGen``.
@@ -74,4 +74,4 @@ It will generate samples in the ``output_diffusion_epoch1000_ci3d``
 ```shell
 python visualize.py output_diffusion_epoch1000_ci3d/???_human_pred.pkl
 ```
-You can visualize overall diffusion steps using visualize.py
+You can visualize overall diffusion steps using ``visualize.py``
