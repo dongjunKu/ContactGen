@@ -68,7 +68,7 @@ python train_guidenet.py
 ```shell
 python sample.py
 ```
-It will generate sample in the ``output_diffusion_epoch1000_ci3d``
+It will generate samples in the ``output_diffusion_epoch1000_ci3d``
 
 ## Visualizing
 ```shell
