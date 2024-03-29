@@ -52,6 +52,9 @@ You can get SMPL-X [here](https://smpl-x.is.tue.mpg.de/download.php)
 
 You can get contact_regions.json [here](https://github.com/sminchisescu-research/imar_vision_datasets_tools/blob/main/info/contact_regions.json)
 
+## Pretrained Model
+The pretrained models can be downloaded [here](https://drive.google.com/drive/folders/1ZqWq_yPoEtig2UvHngqcJfgVyjFvCRfc?usp=drive_link). After downloading, place the models in the ``ContactGen``.
+
 ## Training
 Diffusion module should be trained first
 ```shell
@@ -71,3 +74,4 @@ It will generate sample in the ``output_diffusion_epoch1000_ci3d``
 ```shell
 python visualize.py output_diffusion_epoch1000_ci3d/???_human_pred.pkl
 ```
+You can visualize overall diffusion steps using visualize.py
