@@ -1,6 +1,6 @@
 # ContactGen: Contact-Guided Interactive 3D Human Generation for Partners (AAAI 2024)
 [project page](https://dongjunku.github.io/contactgen/)
-
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/27962)
 [arxiv](https://arxiv.org/abs/2401.17212)
 
 ## Install
