@@ -15,7 +15,7 @@ import smplx
 from params import ParamsAll, ParamsTrain, ParamsSample
 
 
-# psi code: psi 논문에서 해당 인코딩 방식 사용
+# code from psi
 class ContinousRotReprDecoder(nn.Module):
     '''
     - this class encodes/decodes rotations with the 6D continuous representation
